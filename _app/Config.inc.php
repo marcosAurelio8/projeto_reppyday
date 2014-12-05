@@ -1,6 +1,6 @@
 <?php
 
-define('HOME', 'http://localhost/reppyday');
+define('HOME', 'http://localhost/projeto_reppyday');
 define('THEME', 'padrao');
 
 define('INCLUDE_PATH', HOME . '/themes/' . THEME);
@@ -35,35 +35,35 @@ switch ($Url[0]):
         break;
 
     case 'sobre':
-        $pg_title = 'Mais Sobre a FokusF5';
+        $pg_title = 'Mais Sobre a Reppy Day';
         $pg_desc = 'Conheça um pouco sobre nossa empresa, quem está por trás e a capacitação profissional da equipe.';
         $pg_image = $pg_sitekit . 'sobre.jpg';
         $pg_url = HOME . '/sobre';
         break;
-    case 'servicos':
-        $pg_title = 'Conheça alguns algumas funcionalidades';
-        $pg_desc = 'Aqui você irá conhecer forma de como trabalhamos, perceber o feedback de nossos clientes.';
+    case 'colecao':
+        $pg_title = 'Conheça as nossas principais coleções, as todo genêro feminino.';
+        $pg_desc = 'Aqui você irá conhecer as nossas principais coleções, moda infantil e casual.';
         $pg_image = $pg_sitekit . 'contato.jpg';
-        $pg_url = HOME . '/servicos';
+        $pg_url = HOME . '/colecao';
         break;
 
     case 'contato':
-        $pg_title = 'Fale com a FokusF5';
+        $pg_title = 'Fale com a Reppy Day';
         $pg_desc = 'Fique a vontade para enviar um contato por um de nossos canais de atendimento.';
         $pg_image = $pg_sitekit . 'contato.jpg';
         $pg_url = HOME . '/contato';
         break;
     
-     case 'orcamento':
-        $pg_title = 'Solicitação de Orçamentos';
-        $pg_desc = 'Aqui você poderá dar o primeiro passo para o sucesso de seu negócio.';
-        $pg_image = $pg_sitekit . 'orcamento.jpg';
-        $pg_url = HOME . '/orcamento';
+     case 'midias':
+        $pg_title = 'Reppy Day na Mídia.';
+        $pg_desc = 'Reppy Day na mídia, principais noticias da empresa.';
+        $pg_image = $pg_sitekit . 'midias.jpg';
+        $pg_url = HOME . '/midias';
         break;
 
     default :
         $pg_title = 'Opss, desculpe não encontrado o conteúdo relacionado.';
-        $pg_desc = 'Você está vendo agora a página 404 pois não encontramos conteúdo relacionado à <b>' . $setUrl . '</b>, mas não saia ainda. Desfrute de algumas de nossas coleções!';
+        $pg_desc = 'Você está vendo agora a página 404 pois não encontramos conteúdo relacionado à <b >' . $setUrl . '</b>, mas não saia ainda. Desfrute de algumas de nossas coleções!';
         $pg_image = $pg_sitekit . '404.jpg';
         $pg_url = HOME . '/404';
         break;

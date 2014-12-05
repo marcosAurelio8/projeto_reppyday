@@ -1,9 +1,8 @@
-
-<section class="content cont__1">
+<section class="content cont__1" style="background-color: #FBFBFB;">
     <div class="container"><div class="ic">Fokus f5!</div>
         <div class="row">
             <div class="grid_12">
-                <h3><?= $pg_title; ?></h3>
+                <h3 style="border-bottom: 1px #000 solid;"><?= $pg_title; ?></h3>
             </div>
             <div class="clear"></div>
             <div class="grid_12">

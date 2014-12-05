@@ -11,6 +11,12 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:700);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400italic);
+@font-face {
+    font-family: magnolia;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Magnolia.ttf);
+}
 html {
     width: 100%;
 
@@ -709,6 +715,11 @@ footer {
     background-position: right 0;
 }
 
+/*==================================PAGINA INSTITUCIONAL===============================================*/
+.inst{background-color: #FBFBFB;   padding-bottom: 0px !important;}
+#corpoinst{float: left; }
+.img{float: right; }
+
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {
 
@@ -761,6 +772,19 @@ footer {
     .map figure {
         margin-bottom: 15px;
     }
+     .ariane {
+        width: 100% !important;
+        
+        margin: 0 auto !important;
+        margin-bottom: 0px !important;
+    }
+     .ariane_i {
+        
+        
+        margin-left:  25%;
+        
+    }
+    .magnolia{display: none;}
 
     .nowrap {
         white-space: normal;
@@ -799,6 +823,12 @@ footer {
 
     .footer_socials, .copy {
         float: none;
+    }
+     .ariane_i {
+        width: 100% !important;
+        
+        margin: 0 auto !important;
+        margin-bottom: 0px !important;
     }
 
     .footer_socials {
@@ -909,8 +939,25 @@ footer {
         margin-top: 10px;
     }
     .fokus {display: none;}
+    
+      #fokus {
+        overflow: hidden;
+        margin-bottom: 25px;
+    }
 }
+@media only screen and (max-width: 1600px) {
+    .caption {
+        display: none;
+    }
+     .camera_prev {
+        margin-left: -82px;
+    }
 
+    .camera_next {
+        margin-left: 0;
+    }
+    
+}
 
 @media only screen and (max-width: 479px) {
 
@@ -919,6 +966,6 @@ footer {
         margin-left: 8px;
     }
 
-    #fokus{font-size: 10px;}
+    #fokus{font-size: 10px;overflow: hidden; margin-bottom: 25px;}
 
 }

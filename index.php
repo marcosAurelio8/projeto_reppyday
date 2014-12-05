@@ -115,6 +115,7 @@ require './_app/Config.inc.php';
                             <div class="menu_block">
                                 <nav class="horizontal-nav full-width horizontalNav-notprocessed">
                                     <ul class="sf-menu">
+                                        <h1 style="display: none;"><?= $setUrl;?></h1>
                                         <?php require REQUIRE_PATH . '/inc/main_nav.php'; ?>
                                     </ul>
                                 </nav>
@@ -150,7 +151,7 @@ require './_app/Config.inc.php';
                             <a href="#" class="fa fa-google-plus"></a>
                         </div>
                         <div class="copy">
-                            <span class="brand"> Reppy Day | Direitos Reservados</span> &copy; <span id="copyright-year">  </span> | <a id="fokus" href="http://www.fokusf5.com.br" target="_blank" title="FokusF5 Desenvolvimento Web">Developer by FokusF5</a>
+                            <span class="brand"> Reppy Day | Direitos Reservados</span> &copy; <span id="copyright-year">  </span> | <a id="fokus" href="http://www.fokusf5.com.br" target="_blank" title="FokusF5 Desenvolvimento Web">Developer by </a>
                             <div class="sub_copy">
                                 <img class="fokus" src="<?= INCLUDE_PATH; ?>/img/copy.png">
                             </div>
